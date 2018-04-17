@@ -7,7 +7,7 @@ midprice = 0
 before_midprice = 0
 pos = 0 # Long : 1, Short : -1, No position : 0
 public_api = pybitflyer.API()
-api = pybitflyer.API(api_key="[7djhNgLsWPWP6et42uX4z3]", api_secret="[ggxD8OYUA5bzsl6sfs5JSQbopMVcp/7vDd8xlNarZOE=]")
+api = pybitflyer.API(api_key="[]", api_secret="[]")
 #中間価格の初期化
 midprice = before_midprice =  public_api.board(product_code = "FX_BTC_JPY")["mid_price"]
 #注文用のメソッド
